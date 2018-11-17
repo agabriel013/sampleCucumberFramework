@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Cucumber BDD Suite">
+
+<test name="Functional Test 1">
+	<parameter name="ExcelPath" value="src/test/java/com/acn/driver"/>
+	<parameter name="BrowserType" value="chrome"/>
+	<parameter name="Url" value="test"/>
+	<packages>
+		<package name="com.acn.scenarios"/>
+	</packages>
+</test>
+
+</suite>
+

@@ -1,0 +1,5 @@
+com\acn\scenarios\SetupBrowser.class
+com\acn\testbase\TestBase.class
+com\acn\scenarios\GlobalStepDef.class
+com\acn\driver\ExcelDriver.class
+com\acn\scenarios\BatchRunner.class

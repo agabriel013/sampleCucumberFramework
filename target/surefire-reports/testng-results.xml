@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS: Succesfully Navigates and Opens the Browser;
+]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Successfully entered text: Selenium on this object: //input[@type='text' and @id='lst-ib'];
+]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Succesfully clicked the object: click;//span[@class='sbico _wtf _Qtf'];btnSearch;
+]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Succesfully clicked the object: click;//a[text()='Selenium - Web Browser Automation'];linkSelenium;
+]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Message is displayed as expected: Browser Automation;//a[text()='Browser Automation'];lblSeleniumTitle;
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Cucumber BDD Suite" duration-ms="39943" started-at="2017-05-05T17:43:06Z" finished-at="2017-05-05T17:43:45Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.acn.scenarios.BatchRunner@402f32ff]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group>
+    </groups>
+    <test name="Functional Test 1" duration-ms="39943" started-at="2017-05-05T17:43:06Z" finished-at="2017-05-05T17:43:45Z">
+      <class name="com.acn.scenarios.BatchRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.acn.scenarios.BatchRunner@402f32ff]" name="setUpClass" is-config="true" duration-ms="685" started-at="2017-05-05T17:43:08Z" finished-at="2017-05-05T17:43:08Z">
+        </test-method>
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.acn.scenarios.BatchRunner@402f32ff]" name="feature" duration-ms="36947" started-at="2017-05-05T17:43:08Z" description="Runs Cucumber Feature" finished-at="2017-05-05T17:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search Functionality of Google]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.acn.scenarios.BatchRunner@402f32ff]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2017-05-05T17:43:45Z" finished-at="2017-05-05T17:43:45Z">
+        </test-method>
+      </class>
+      <class name="com.acn.scenarios.SetupBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.acn.scenarios.SetupBrowser@48eff760]" name="beforeTest" is-config="true" duration-ms="2052" started-at="2017-05-05T17:43:06Z" finished-at="2017-05-05T17:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.acn.scenarios.SetupBrowser@48eff760]" name="afterTest" is-config="true" duration-ms="55" started-at="2017-05-05T17:43:45Z" finished-at="2017-05-05T17:43:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

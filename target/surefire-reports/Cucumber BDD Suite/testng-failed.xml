@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Cucumber BDD Suite]">
+  <parameter name="ExcelPath" value="src/test/java/com/acn/driver"/>
+  <parameter name="BrowserType" value="chrome"/>
+  <parameter name="Url" value="test"/>
+  <test name="Functional Test 1(failed)" preserve-order="true">
+    <parameter name="ExcelPath" value="src/test/java/com/acn/driver"/>
+    <parameter name="BrowserType" value="chrome"/>
+    <parameter name="Url" value="test"/>
+    <classes>
+      <class name="com.acn.scenarios.BatchRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class>
+      <class name="com.acn.scenarios.SetupBrowser">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
