@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-//waka waka wohoo!!
+//waka waka wohoo!! yeah!!
 //@RunWith(Cucumber.class)
 //@cucumber.api.CucumberOptions(
 //		format ={"pretty", "html:cucumber_reports/html/","json:cucumber_reports/json/output.json",
