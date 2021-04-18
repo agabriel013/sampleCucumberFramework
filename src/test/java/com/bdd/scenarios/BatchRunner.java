@@ -6,6 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
+//This is a test comment
 //@RunWith(Cucumber.class)
 //@cucumber.api.CucumberOptions(
 //		format ={"pretty", "html:cucumber_reports/html/","json:cucumber_reports/json/output.json",

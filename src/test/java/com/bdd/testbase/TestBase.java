@@ -1,5 +1,7 @@
 package com.bdd.testbase;
 
+//This are all the imports used for the testbase class
+
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 
 import java.io.File;
